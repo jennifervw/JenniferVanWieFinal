@@ -130,6 +130,7 @@ void draw() {
    if (cam.available() == true) {
     cam.read();
   }
+  noLoop();
   image(cam, 0, 0);
   cam.stop();
   image(photo, 0, 0);

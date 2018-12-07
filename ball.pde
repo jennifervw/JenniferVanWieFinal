@@ -16,7 +16,7 @@ class Ball {
 
   void display() {
     fill(200, 100, 255);
-    ellipse(x, updown, r*2, r*2);
+    ellipse(x, y, r*2, r*2);
     if (keyPressed==true) {
       if (key=='a') {
         x=x-5;
