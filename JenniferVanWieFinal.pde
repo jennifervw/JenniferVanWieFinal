@@ -66,7 +66,8 @@ photo = loadImage("confetti.gif");
 photo.resize(1280,720);
 photo2 = loadImage("balloons.png");
 photo.resize(1280,720);
-photo3 = loadImage("TEXT.png");
+photo3 = loadImage("SCREEN.jpg");
+photo3.resize(1280,720);
 file = new SoundFile(this, "nye.mp3");
   }
   // populate the array of blocks
